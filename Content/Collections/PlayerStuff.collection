@@ -1,0 +1,7 @@
+FileVersion:2
+Type:Static
+Guid:99C4795D-4BAA-6849-2DDE-ADBD0E7511BC
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/Player/PlayerCamera_Pawn.PlayerCamera_Pawn
+/Game/Player/PlayerCharacter.PlayerCharacter

@@ -1,0 +1,7 @@
+FileVersion:2
+Type:Static
+Guid:F77CDC05-412A-69D3-C6DF-BE9F87AB1841
+ParentGuid:00000000-0000-0000-0000-000000000000
+
+/Game/EnemyActors/EnemyAI.EnemyAI
+/Game/EnemyActors/EnemyCharacter.EnemyCharacter
