@@ -5,3 +5,4 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 
 /Game/Player/PlayerCamera_Pawn.PlayerCamera_Pawn
 /Game/Player/PlayerCharacter.PlayerCharacter
+/Game/Player/PlayerSpawn_Custom.PlayerSpawn_Custom
