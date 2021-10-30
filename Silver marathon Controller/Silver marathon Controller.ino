@@ -79,25 +79,30 @@ void loop() {
 }
 void AnalogControl(){
   xValue = analogRead(joyX);
-  yValue = analogRead(joyY);
-  Serial.print("StickX ");
-   Serial.print(xValue);
+  //yValue = analogRead(joyY);
+  xValue-=487;
+  /*Serial.print("StickX ");
+  Serial.print(xValue);
   Serial.print("\n");
   Serial.print("StickY ");
   Serial.print(yValue);
-  Serial.print("\n");
+  Serial.print("\n");*/
+  if(xValue>200){
+    Serial.println("StickX 1");
+  }
+  if(xValue<-200){
+    Serial.println("StickX -1");
+  }
 }
 void ShakeSensor(){
   shakeSensor = analogRead(A2);
+  shakeSensor-=1013;
 	//While sensor is not moving, analog pin receive 1023~1024 value
-	if (shakeSensor<1022){
+	if (shakeSensor<-20){
     //Serial.println("Sensor stopped");
+    Serial.println("attack");
 		//Serial.println(shakeSensor);
-	}
-	else{ 
-		Serial.println("attack");
-		//Serial.println(shakeSensor);
-  }
+	} 
 }
 void BtnPress(){
   
